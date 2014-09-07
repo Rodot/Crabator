@@ -116,8 +116,11 @@ void explode(){
     }
     //display
     int x_screen, y_screen;
-    if(screenCoord(x, y, x_screen, y_screen))
+    if(screenCoord(x, y, x_screen, y_screen)){
+      gb.display.setColor(INVERT);
       gb.display.fillRect(x_screen, y_screen, s, s);
+      gb.display.setColor(BLACK);
+    }
   }
 }
 

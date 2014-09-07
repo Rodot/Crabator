@@ -12,3 +12,7 @@ Each small crab killed gives you $1, each boss gives you $5. Once you have at le
 * A: Shoot
 * B: Run
 * C: Pause
+
+## Changelog
+### 2014-09-07
+* RPG's explosions use the new INVERT color for a nicer effect
